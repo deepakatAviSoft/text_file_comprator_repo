@@ -1,0 +1,19 @@
+<!-- compare_files.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Compare Files</title>
+</head>
+<body>
+    <h1>Compare Files</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="true_file">Select True File:</label>
+        <input type="file" name="true_file" id="true_file"><br><br>
+        <label for="altered_file">Select Altered File:</label>
+        <input type="file" name="altered_file" id="altered_file"><br><br>
+        <input type="submit" value="Compare">
+    </form>
+</body>
+</html>
