@@ -1,0 +1,3 @@
+Extra in sentence 1 (File2): hi!
+Extra in sentence 3 (File2): name
+Missing in sentence 4 (File1): hello
