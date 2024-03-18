@@ -1,0 +1,3 @@
+Difference in sentence 1:
+Original: hi! how are you. my name is deepak. what is your name.
+Altered: how are you. my name is deepak. what is your. hello.

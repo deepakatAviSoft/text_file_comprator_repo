@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comparison Result</title>
+</head>
+<body>
+    <h1>Comparison Result</h1>
+    <p>Number of sentences in True File: {{ sentences_count_true_file }}</p>
+    <p>Number of sentences in Altered File: {{ sentences_count_altered_file }}</p>
+    <a href="{% url 'compare_and_download' %}">Download Comparison Report</a>
+</body>
+</html>

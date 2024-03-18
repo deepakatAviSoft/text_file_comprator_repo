@@ -15,5 +15,10 @@
         <input type="file" name="altered_file" id="altered_file"><br><br>
         <input type="submit" value="Compare">
     </form>
+
+    {% if true_file_path and altered_file_path %}
+        <p><a href="{{ true_file_path }}" download>Download True File</a></p>
+        <p><a href="{{ altered_file_path }}" download>Download Altered File</a></p>
+    {% endif %}
 </body>
 </html>
